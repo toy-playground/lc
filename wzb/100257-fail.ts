@@ -1,4 +1,4 @@
-function medianOfUniquenessArray(nums: number[]): number {
+function medianOfUniquenessArrayFail(nums: number[]): number {
   if (nums.length === 1) return 1;
   const res = new Array(nums.length + 1).fill(0);
   const mmap: number[][] = new Array(nums.length).fill(0).map((_) => []);
